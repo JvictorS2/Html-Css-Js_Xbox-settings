@@ -1,0 +1,193 @@
+/* //////////////////////General//////////////////////////// */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+div,
+button{
+    font-size: 16px;
+
+    color: #Fff;
+}
+
+h2{
+    font-weight: normal;
+}
+/* //////////////////////////Keyframes///////////////////////////////////////// */
+
+@keyframes shine {
+    0% {filter: brightness(1);}
+    50% {filter: brightness(1.5);}
+    100% {filter: brightness(1);}
+}
+
+@keyframes shineSettings {
+    0% {filter: brightness(1);}
+    50% {filter: brightness(1.5);}
+    100% {filter: brightness(1.25);}
+}
+
+/* //////////////////////////////section main////////////////////////////////// */
+
+section.content-main{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+}
+
+div.content-left,
+div.content-right{
+    height: 100%;
+    
+    background-color: #1f1f1f;
+}
+
+/* ////////////////////////////left section/////////////////////////////////// */
+
+div.content-left{
+    width: 20%;
+    padding-top: 2rem; 
+    
+    border-right:1.9px solid #3f3d3d;
+}
+
+/*///////////////////////////// Profile ///////////////////////////////////////*/
+
+div.content-left .profile-box{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 2rem 3rem;
+} 
+
+.profile-box .profile-svg svg,
+.profile-box .profile-picture img{
+    height: 1.5rem;
+}
+
+.profile-box .profile-picture img{
+    margin: 0 .5rem 0 .5rem;
+    
+    border-radius: 50%;
+}
+
+/*////////////////////////////// Opitions list //////////////////////////////////*/
+
+div.option,
+span.indicator{
+    height: 2.25rem;
+}
+
+button.option-button{
+    height: 100%;
+    width: 100%;
+    border: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-left: 3rem;
+
+    cursor: pointer;
+    
+    background-color: #1f1f1f;
+}
+
+/* /////////////////////////Css Javacript options list ///////////////////////////*/
+
+/*////////////////////////// background after click //////////////////////////////*/
+
+button.clicked{
+    background-color: #3f3d3d  ;
+}
+
+
+button.option-button:hover {
+    background-color: purple;
+    box-shadow: 0 0 20px purple;
+    animation: shine 2s;
+}
+
+/*///////////////////////////// Indicator ////////////////////////////////////////*/
+
+.indicator{
+    width: 7px;
+    background-color: purple;
+    box-shadow:  0 0 20px purple;
+}
+
+/*////////////////////////////// right section //////////////////////////////////////*/
+
+div.content-right{
+    position: relative;
+    width: 80%;
+}
+
+
+div.settings{
+    padding: 3rem 0 0 2rem;  
+    width: 70%;
+    position: absolute;    
+}
+
+/* /////////////////////////Css Javacript settings ///////////////////////////*/
+div.hidden{
+    transition: 1000ms;
+    top: -100%;
+}
+
+div.show{
+    transition: 1000ms ;
+    top: 0;
+}
+
+/*///////////////////////////////// Title //////////////////////////////////////////////*/
+
+div.settings .Title {
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+/*///////////////////////////////// Box settings //////////////////////////////////*/
+
+div.settings .settings-options-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+
+div.settings .settings-options-box .settings-options svg{
+    height: 2rem;
+    padding:0 1rem 0 1.5rem;
+}
+
+div.settings .settings-options-box .settings-options{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 5px;
+
+    background-color: #2a2a2a; 
+}
+
+div.settings .settings-options-box .settings-options:hover{
+    border-radius: 10px;
+    margin: 0;
+    
+    animation: shineSettings 1000ms;
+    filter: brightness(1.25);
+
+    box-shadow: 0 0 30px purple;
+    border:solid 3px purple;
+}
+
