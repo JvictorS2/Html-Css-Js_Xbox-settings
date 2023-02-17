@@ -9,29 +9,150 @@ body{
     overflow: hidden;
 }
 
-div,
-button{
-    font-size: 16px;
-
-    color: #Fff;
-}
-
-h2{
-    font-weight: normal;
-}
 /* //////////////////////////Keyframes///////////////////////////////////////// */
 
 @keyframes shine {
     0% {filter: brightness(1);}
     50% {filter: brightness(1.5);}
-    100% {filter: brightness(1);}
+    100% {filter: brightness(1.25);}
 }
 
-@keyframes shineSettings {
+@keyframes shineSettingsLight {
+    0% {filter: brightness(1);}
+    50% {filter: brightness(.75);}
+    100% {filter: brightness(.9);}
+}
+
+@keyframes shineSettingsDark {
     0% {filter: brightness(1);}
     50% {filter: brightness(1.5);}
     100% {filter: brightness(1.25);}
 }
+
+/*/////////////////////////////// Themes & Transitions/////////////////////////////////////*/
+div,
+button{
+    font-size: 16px;
+
+    color: #000;
+}
+
+h2{
+    font-weight: normal;
+    
+}
+
+
+svg.settinhs-icon path{
+    transition: fill 500ms;
+    fill: #000
+}
+
+svg.cirlce circle,
+svg.path path,
+svg.path g,
+svg{
+    transition: fill 500ms;
+    fill:#000;
+}
+
+svg.Stroke g,
+svg.pathStroke{
+    transition: stroke 500ms;
+    stroke: #000;
+}
+
+div,
+button,
+h2{
+    transition: 500ms;
+}
+
+div.content-left,
+div.content-right,
+button.option-button{
+    transition: 500ms;
+}
+
+div.settings .settings-options-box .settings-options,
+div.Personalization-box{
+    transition: background-color 500ms;
+}
+
+button.clicked,
+.button-switch-color{
+    transition: background-color 500ms;
+    
+}
+
+label.labelCheckbox{
+    transition: border 500ms;
+}
+
+div.ball{
+    transition: 500ms;
+}
+
+
+/* ////////////////////Dark Theme ////////////////////////////////*/
+
+section.dark svg.settinhs-icon path{
+    transition: fill 500ms;
+    fill: #d2d2d2;
+}
+
+section.dark svg.cirlce circle,
+section.dark svg.path path,
+section.dark svg.path g,
+section.dark svg,
+section.dark svg{
+    transition: fill 500ms;
+    fill:#fff;
+}
+
+section.dark svg.Stroke g,
+section.dark svg.pathStroke{
+    transition: stroke 500ms;
+    stroke: #fff;
+}
+
+section.dark div,
+section.dark button,
+section.dark h2{
+    transition: 500ms;
+    color: #fff;
+}
+
+section.dark div.content-left,
+section.dark div.content-right,
+section.dark button.option-button{
+    transition: background-color 500ms;
+    background-color: #1f1f1f;
+}
+
+section.dark div.settings .settings-options-box .settings-options,
+section.dark div.Personalization-box{
+    transition: background-color 500ms;
+    background-color: #2a2a2a; 
+}
+
+section.dark button.clicked,
+section.dark .button-switch-color{
+    transition: background-color 500ms;
+    background-color: #3f3d3d;
+    
+}
+
+section.dark label.labelCheckbox{
+    transition: border 500ms;
+    border: 2px solid #fafafa;
+}
+
+section.dark div.ball{
+    transition: 500ms;
+    background-color: #fafafa;
+}
+
 
 /* //////////////////////////////section main////////////////////////////////// */
 
@@ -45,8 +166,6 @@ section.content-main{
 div.content-left,
 div.content-right{
     height: 100%;
-    
-    background-color: #1f1f1f;
 }
 
 /* ////////////////////////////left section/////////////////////////////////// */
@@ -55,6 +174,7 @@ div.content-left{
     width: 20%;
     padding-top: 2rem; 
     
+    background-color: #dadada;
     border-right:1.9px solid #3f3d3d;
 }
 
@@ -96,8 +216,7 @@ button.option-button{
     padding-left: 3rem;
 
     cursor: pointer;
-    
-    background-color: #1f1f1f;
+    background-color: #dadada;
 }
 
 /* /////////////////////////Css Javacript options list ///////////////////////////*/
@@ -105,17 +224,18 @@ button.option-button{
 /*////////////////////////// background after click //////////////////////////////*/
 
 button.clicked{
-    background-color: #3f3d3d  ;
+    background-color: #fafafa ;
 }
 
 
-button.option-button:hover {
+section button.option-button:hover {
+    animation: shine 2s !important;
     background-color: purple;
     box-shadow: 0 0 20px purple;
-    animation: shine 2s;
+    filter: brightness(1.25);
 }
 
-/*///////////////////////////// Indicator ////////////////////////////////////////*/
+/*//////////////////////////////// Indicator ////////////////////////////////////////*/
 
 .indicator{
     width: 7px;
@@ -123,28 +243,120 @@ button.option-button:hover {
     box-shadow:  0 0 20px purple;
 }
 
+/*/////////////////////////////// Personalization ///////////////////////////////////*/
+div.Personalization-box{
+    padding: .5rem;
+    margin: 1rem;
+    
+    border-radius: 10px;
+    
+    background-color: #fafafa;
+}
+
+.transition,
+.Switch-theme{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+    margin: .4rem 0;
+    padding: 0 .5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.Personalization-box .Switch-color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+button.button-switch-color{
+    margin-top: 1rem;
+    width: 80%;
+    height: 2rem;
+    border-radius: 32px;
+    cursor: pointer;
+
+    transition: 200ms;
+
+    border: 3px solid rgba(128, 0, 128, 2);
+}
+
+button.button-switch-color:hover{
+    background-color: purple;
+    filter: brightness(1.5);
+    box-shadow: 0 0 30px purple, 0 0  30px purple;
+}
+
+input.checkbox-style{
+    position: absolute;
+    left: 13rem; 
+    width: 30px; 
+    opacity: 0; 
+}
+
+label.labelCheckbox{
+    height: 12px;
+    width: 30px;
+    position: relative;
+    
+    border-radius: 12px;
+    cursor: pointer;
+    
+    border: 2px solid #000;
+}
+
+div.ball {
+    height: 8px;
+    width: 8px;
+
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    
+    background-color: #000;
+    border-radius: 50%;
+
+    transition: left .5s;
+}
+/*///////////////// css javascript .ball//////////////// */
+
+section.dark .ballDark{
+    left: 20px;
+}
+
+section.dark label.labelCheckboxDark{
+    background-color: purple;
+    box-shadow: 0 0 10px purple;
+}
+
 /*////////////////////////////// right section //////////////////////////////////////*/
 
 div.content-right{
     position: relative;
     width: 80%;
+
+    background-color: #dadada;
 }
 
 
 div.settings{
     padding: 3rem 0 0 2rem;  
     width: 70%;
-    position: absolute;    
+    position: absolute;   
+    
 }
 
 /* /////////////////////////Css Javacript settings ///////////////////////////*/
 div.hidden{
-    transition: 1000ms;
-    top: -100%;
+    transition: 1000ms !important;
+    top: -150%;
 }
 
 div.show{
-    transition: 1000ms ;
+    transition: 1000ms !important;
     top: 0;
 }
 
@@ -170,21 +382,33 @@ div.settings .settings-options-box .settings-options svg{
 
 div.settings .settings-options-box .settings-options{
     height: 5rem;
+    margin: 6px;
+    padding: 5px;
+
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 6px;
-    padding: 5px;
     border-radius: 5px;
 
-    background-color: #2a2a2a; 
+    background-color: #fafafa;
 }
 
 div.settings .settings-options-box .settings-options:hover{
     border-radius: 10px;
     margin: 0;
     
-    animation: shineSettings 1000ms;
+    animation: shineSettingsLight 2000ms;
+    filter: brightness(.9);
+
+    box-shadow: 0 0 30px purple;
+    border:solid 3px purple;
+}
+
+section.dark div.settings .settings-options-box .settings-options:hover{
+    border-radius: 10px;
+    margin: 0;
+    
+    animation: shineSettingsDark 2000ms;
     filter: brightness(1.25);
 
     box-shadow: 0 0 30px purple;

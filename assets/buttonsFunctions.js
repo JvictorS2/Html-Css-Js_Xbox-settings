@@ -122,10 +122,3 @@ buttonAc.addEventListener('click', function () {
     } 
 
 });
-
-
-
-
-
-/* oi.removeAttribute('class') */
-
