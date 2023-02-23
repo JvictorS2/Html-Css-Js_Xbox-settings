@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xbox settings</title>
-    <link rel="stylesheet" href="./assets/style.css" >
+    <link rel="stylesheet" href="./assets/css/mainStyle.css" >
+    <link rel="stylesheet" href="./assets/css/colors.css">
    <!--  icon -->
     <link rel="icon" href="https://wallpapercave.com/wp/wp3377108.png" type="image/x-icon">
 
@@ -17,7 +18,7 @@
         rel="stylesheet">
     
 </head>
-<body>
+<body id="BodyId" class="BrightBlue">
     <section id="sectionMain" class="content-main ">
         <div class="content-left">
             <div class="profile-box">
@@ -100,8 +101,8 @@
                 </div>
                 <hr>
                 <div class="Switch-color">
-                    <h4>Switch your color</h4>
-                    <button type="button" class="button-switch-color">Purple</button>
+                    <h4>Change your color</h4>
+                    <button id="buttonChangeColor" type="button" class="button-switch-color">Purple</button>
                 </div>
 
             </div>
@@ -554,9 +555,31 @@
                     </div>
                 </div>
             </div>
+            <div id="colorsBox" class="settings hidden">
+                <h2>My color</h2>
+                <div id="oi" class="colors-box">
+                    <div id="blueGreen" class="buttonColor BlueGreen"></div>
+                    <div id="brightBlue" class="buttonColor BrightBlue"></div>
+                    <div id="blue" class="buttonColor Blue"></div>
+                    <div id="darkBlue" class="buttonColor DarkBlue"></div>
+                    <div id="brightGreen" class="buttonColor BrightGreen"></div>
+                    <div id="green" class="buttonColor Green"></div>
+                    <div id="orange" class="buttonColor Orange"></div>
+                    <div id="darkPurple" class="buttonColor DarkPurple"></div>
+                    <div id="purple" class="buttonColor Purple"></div>
+                    <div id="magenta" class="buttonColor Magenta"></div>
+                    <div id="teal" class="buttonColor Teal"></div>
+                    <div id="darkRed" class="buttonColor DarkRed"></div>
+                    <div id="red" class="buttonColor Red"></div>
+                    <div id="yellow" class="buttonColor Yellow"></div>
+                    <div id="brown" class="buttonColor Brown"></div>
+                    <div id="gray" class="buttonColor Gray"></div>
+                </div>
+            </div>
         </div>
     </section>
-    <script src="./assets/buttonsFunctions.js"></script>
-    <script src="./assets/darkTheme.js"></script>
+    <script src="./assets/script/buttonsFunctions.js"></script>
+    <script src="./assets/script/darkTheme.js"></script>
+    <script src="./assets/script/buttonsColors.js"></script>
 </body>
 </html>

@@ -25,9 +25,12 @@ let settingsDs = document.getElementById('settingsDs');
 let settingsP = document.getElementById('settingsP');
 let settingsAc = document.getElementById('settingsAc');
 
+let buttonChangeColor = document.getElementById('buttonChangeColor');
+let ColorsBox = document.getElementById('colorsBox');
+
 let buttonsCollection = [buttonG, buttonA, buttonS, buttonDs, buttonP, buttonAc];
 let idsCollection = [id1, id2, id3, id4, id5, id6];
-let settingsCollection = [settingsG, settingsA,settingsS, settingsDs, settingsP, settingsAc];
+let settingsCollection = [settingsG, settingsA,settingsS, settingsDs, settingsP, settingsAc, ColorsBox];
 
 /* Função para resertar a classes nas divs corretas */
 const resertClasses = () => {
@@ -43,6 +46,7 @@ const resertClasses = () => {
     
     }
 }
+
 
 /* ////////////////////////button/////////////////////// */
 
@@ -93,7 +97,7 @@ buttonDs.addEventListener('click', function () {
 
     if (settingsDs.classList.contains('hidden')) {
         settingsDs.classList.add('show');
-        settingsDs.classList.add('hidden');
+        settingsDs.classList.remove('hidden');
     } 
 });
 
@@ -105,7 +109,7 @@ buttonP.addEventListener('click', function () {
 
     if (settingsP.classList.contains('hidden')) {
         settingsP.classList.add('show');
-        settingsP.classList.add('hidden');
+        settingsP.classList.remove('hidden');
     } 
 });
 
@@ -118,7 +122,17 @@ buttonAc.addEventListener('click', function () {
 
     if (settingsAc.classList.contains('hidden')) {
         settingsAc.classList.add('show');
-        settingsAc.classList.add('hidden');
+        settingsAc.classList.remove('hidden');
     } 
 
 });
+
+buttonChangeColor.addEventListener('click', () => {
+    resertClasses();
+    
+    if (ColorsBox.classList.contains('hidden')) {
+        ColorsBox.classList.add('show');
+        ColorsBox.classList.remove('hidden');
+    }
+})
+

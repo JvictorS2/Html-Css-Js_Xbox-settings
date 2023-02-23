@@ -30,6 +30,7 @@ body{
 }
 
 /*/////////////////////////////// Themes & Transitions/////////////////////////////////////*/
+
 div,
 button{
     font-size: 16px;
@@ -62,11 +63,11 @@ svg.pathStroke{
     stroke: #000;
 }
 
-div,
+/* div,
 button,
 h2{
     transition: 500ms;
-}
+} */
 
 div.content-left,
 div.content-right,
@@ -119,7 +120,6 @@ section.dark svg.pathStroke{
 section.dark div,
 section.dark button,
 section.dark h2{
-    transition: 500ms;
     color: #fff;
 }
 
@@ -227,11 +227,8 @@ button.clicked{
     background-color: #fafafa ;
 }
 
-
 section button.option-button:hover {
     animation: shine 2s !important;
-    background-color: purple;
-    box-shadow: 0 0 20px purple;
     filter: brightness(1.25);
 }
 
@@ -239,8 +236,6 @@ section button.option-button:hover {
 
 .indicator{
     width: 7px;
-    background-color: purple;
-    box-shadow:  0 0 20px purple;
 }
 
 /*/////////////////////////////// Personalization ///////////////////////////////////*/
@@ -281,13 +276,11 @@ button.button-switch-color{
 
     transition: 200ms;
 
-    border: 3px solid rgba(128, 0, 128, 2);
+    border: 3px solid #fff;
 }
 
 button.button-switch-color:hover{
-    background-color: purple;
     filter: brightness(1.5);
-    box-shadow: 0 0 30px purple, 0 0  30px purple;
 }
 
 input.checkbox-style{
@@ -327,10 +320,10 @@ section.dark .ballDark{
     left: 20px;
 }
 
-section.dark label.labelCheckboxDark{
+/* section.dark label.labelCheckboxDark{
     background-color: purple;
     box-shadow: 0 0 10px purple;
-}
+} */
 
 /*////////////////////////////// right section //////////////////////////////////////*/
 
@@ -400,8 +393,7 @@ div.settings .settings-options-box .settings-options:hover{
     animation: shineSettingsLight 2000ms;
     filter: brightness(.9);
 
-    box-shadow: 0 0 30px purple;
-    border:solid 3px purple;
+    border:solid 3px #fff;
 }
 
 section.dark div.settings .settings-options-box .settings-options:hover{
@@ -411,7 +403,27 @@ section.dark div.settings .settings-options-box .settings-options:hover{
     animation: shineSettingsDark 2000ms;
     filter: brightness(1.25);
 
-    box-shadow: 0 0 30px purple;
-    border:solid 3px purple;
+    border:solid 3px #fff;
 }
 
+div.colors-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: .5rem;
+
+    padding-right: 12.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.buttonColor{
+    height: 110px;
+    width: 110px;
+    border-radius: 5px;
+    margin:6px;
+    cursor: pointer;
+}
+
+.buttonColor:hover{
+    margin: 0;
+}

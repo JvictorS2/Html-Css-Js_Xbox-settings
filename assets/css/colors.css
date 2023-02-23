@@ -1,0 +1,580 @@
+/* ///////////////////////// Colors ///////////////////////////*/
+
+/* Blue Green /////////////////////////////*/
+body.BlueGreen section button.option-button:hover{
+    background-color: #016246;
+    box-shadow: 0 0 20px #016246;
+}
+body.BlueGreen .indicator{
+    background-color: #016246;
+    box-shadow:  0 0 20px #016246;
+}
+body.BlueGreen button.button-switch-color{
+    border-color:#016246;
+}
+body.BlueGreen button.button-switch-color:hover{
+    background-color:  #016246;
+    box-shadow: 0 0 30px #016246 , 0 0  30px #016246;
+}
+body.BlueGreen section.dark label.labelCheckboxDark{
+    background-color: #016246;
+    box-shadow: 0 0 10px #016246;
+}
+body.BlueGreen div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #016246;
+    border-color:  #016246;
+}
+body.BlueGreen section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #016246;
+    border-color: #016246;
+}
+div.colors-box .BlueGreen{
+    background-color: #016246;
+}
+body.BlueGreen div.colors-box .buttonColor:hover{
+    border: 3px solid #016246;
+    box-shadow: 0 0 30px #016246;
+}
+
+/* Bright Blue /////////////////////////////*/
+body.BrightBlue section button.option-button:hover{
+    background-color: #107fc7;
+    box-shadow: 0 0 20px #107fc7;
+}
+body.BrightBlue .indicator{
+    background-color: #107fc7;
+    box-shadow:  0 0 20px #107fc7;
+}
+body.BrightBlue button.button-switch-color{
+    border-color:#107fc7;
+}
+body.BrightBlue button.button-switch-color:hover{
+    background-color:  #107fc7;
+    box-shadow: 0 0 30px #107fc7, 0 0  30px #107fc7;
+}
+body.BrightBlue section.dark label.labelCheckboxDark{
+    background-color: #107fc7;
+    box-shadow: 0 0 10px #107fc7;
+}
+body.BrightBlue div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #107fc7;
+    border-color:  #107fc7;
+}
+body.BrightBlue section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #107fc7;
+    border-color: #107fc7;
+}
+div.colors-box .BrightBlue{
+    background-color: #107fc7;
+}
+body.BrightBlue div.colors-box .buttonColor:hover{
+    border: 3px solid #107fc7;
+    box-shadow: 0 0 30px #107fc7;
+}
+
+/* Blue ///////////////////////////// */
+body.Blue section button.option-button:hover{
+    background-color: #1072d5;
+    box-shadow: 0 0 20px #1072d5;
+}
+body.Blue .indicator{
+    background-color: #1072d5;
+    box-shadow:  0 0 20px #1072d5;
+}
+body.Blue button.button-switch-color{
+    border-color:#1072d5;
+}
+body.Blue button.button-switch-color:hover{
+    background-color:  #1072d5;
+    box-shadow: 0 0 30px #1072d5, 0 0  30px #1072d5;
+}
+body.Blue section.dark label.labelCheckboxDark{
+    background-color: #1072d5;
+    box-shadow: 0 0 10px #1072d5;
+}
+body.Blue div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #1072d5;
+    border-color:  #1072d5;
+}
+body.Blue section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #1072d5;
+    border-color: #1072d5;
+}
+div.colors-box .Blue{
+    background-color: #1072d5;
+}
+body.Blue div.colors-box .buttonColor:hover{
+    border: 3px solid #1072d5;
+    box-shadow: 0 0 30px #1072d5;
+}
+
+/* Dark Blue  /////////////////////////////*/
+body.DarkBlue section button.option-button:hover{
+    background-color: #1a4093;
+    box-shadow: 0 0 20px #1a4093;
+}
+body.DarkBlue .indicator{
+    background-color: #1a4093;
+    box-shadow:  0 0 20px #1a4093;
+}
+body.DarkBlue button.button-switch-color{
+    border-color:#1a4093;
+}
+body.DarkBlue button.button-switch-color:hover{
+    background-color: #1a4093;
+    box-shadow: 0 0 30px #1a4093, 0 0  30px #1a4093;
+}
+body.DarkBlue section.dark label.labelCheckboxDark{
+    background-color: #1a4093;
+    box-shadow: 0 0 10px #1a4093;
+}
+body.DarkBlue div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #1a4093;
+    border-color:  #1a4093;
+}
+body.DarkBlue section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #1a4093;
+    border-color: #1a4093;
+}
+div.colors-box .DarkBlue{
+    background-color: #1a4093;
+}
+body.DarkBlue div.colors-box .buttonColor:hover{
+    border: 3px solid #1a4093;
+    box-shadow: 0 0 30px #1a4093;
+}
+
+/* Bright Green*/
+body.BrightGreen section button.option-button:hover{
+    background-color: #0a840d;
+    box-shadow: 0 0 20px #0a840d;
+}
+body.BrightGreen .indicator{
+    background-color: #0a840d;
+    box-shadow:  0 0 20px #0a840d;
+}
+body.BrightGreen button.button-switch-color{
+    border-color:#0a840d;
+}
+body.BrightGreen button.button-switch-color:hover{
+    background-color:  #0a840d;
+    box-shadow: 0 0 30px  #0a840d, 0 0  30px #0a840d;
+}
+body.BrightGreen section.dark label.labelCheckboxDark{
+    background-color: #0a840d;
+    box-shadow: 0 0 10px #0a840d;
+}
+body.BrightGreen div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #0a840d;
+    border-color:  #0a840d;
+}
+body.BrightGreen section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #0a840d;
+    border-color: #0a840d;
+}
+div.colors-box .BrightGreen{
+    background-color: #0a840d;
+}
+body.BrightGreen div.colors-box .buttonColor:hover{
+    border: 3px solid #0a840d;
+    box-shadow: 0 0 30px #0a840d;
+}
+
+/* Green  */
+body.Green section button.option-button:hover{
+    background-color: #06a910;
+    box-shadow: 0 0 20px #06a910;;
+}
+body.Green .indicator{
+    background-color: #06a910;
+    box-shadow:  0 0 20px #06a910;
+}
+body.Green button.button-switch-color{
+    border-color:#06a910;
+}
+body.Green button.button-switch-color:hover{
+    background-color: #06a910;
+    box-shadow: 0 0 30px #06a910, 0 0  30px #06a910;
+}
+body.Green section.dark label.labelCheckboxDark{
+    background-color: #06a910;
+    box-shadow: 0 0 10px #06a910;
+}
+body.Green div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #06a910;
+    border-color:  #06a910;
+}
+body.Green section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #06a910;
+    border-color: #06a910;
+}
+div.colors-box .Green{
+    background-color: #06a910;
+}
+body.Green div.colors-box .buttonColor:hover{
+    border: 3px solid #06a910;
+    box-shadow: 0 0 30px #06a910;
+}
+
+/* Orange */
+body.Orange section button.option-button:hover{
+    background-color: orangered;
+    box-shadow: 0 0 20px orangered;
+}
+body.Orange .indicator{
+    background-color: orangered;
+    box-shadow:  0 0 20px orangered;
+}
+body.Orange button.button-switch-color{
+    border-color: orangered;
+}
+body.Orange button.button-switch-color:hover{
+    background-color: orangered;
+    box-shadow: 0 0 30px orangered, 0 0  30px orangered;
+}
+body.Orange section.dark label.labelCheckboxDark{
+    background-color: orangered;
+    box-shadow: 0 0 10px orangered;
+}
+body.Orange div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px orangered;
+    border-color: orangered ;
+}
+body.Orange section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px orangered;
+    border-color: orangered;
+}
+div.colors-box .Orange{
+    background-color: orangered;
+}
+body.Orange div.colors-box .buttonColor:hover{
+    border: 3px solid orangered;
+    box-shadow: 0 0 30px orangered;
+}
+
+/* Dark Purple */
+body.DarkPurple section button.option-button:hover{
+    background-color: purple;
+    box-shadow: 0 0 20px purple;
+}
+body.DarkPurple .indicator{
+    background-color: purple;
+    box-shadow:  0 0 20px purple;
+}
+body.DarkPurple button.button-switch-color{
+    border-color:purple;
+}
+body.DarkPurple button.button-switch-color:hover{
+    background-color: purple;
+    box-shadow: 0 0 30px purple, 0 0  30px purple;
+}
+body.DarkPurple section.dark label.labelCheckboxDark{
+    background-color: purple;
+    box-shadow: 0 0 10px purple;
+}
+body.DarkPurple div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px purple;
+    border-color: purple ;
+}
+body.DarkPurple section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px purple;
+    border-color: purple;
+}
+div.colors-box .DarkPurple{
+    background-color: purple;
+}
+body.DarkPurple div.colors-box .buttonColor:hover{
+    border: 3px solid purple;
+    box-shadow: 0 0 30px purple;
+}
+
+/* Purple */
+body.Purple section button.option-button:hover{
+    background-color: #774eaa;
+    box-shadow: 0 0 20px #774eaa;
+}
+body.Purple .indicator{
+    background-color: #774eaa;
+    box-shadow:  0 0 20px #774eaa;
+}
+body.Purple button.button-switch-color{
+    border-color: #774eaa;
+}
+body.Purple button.button-switch-color:hover{
+    background-color: #774eaa;
+    box-shadow: 0 0 30px #774eaa, 0 0  30px #774eaa;
+}
+body.Purple section.dark label.labelCheckboxDark{
+    background-color: #774eaa;
+    box-shadow: 0 0 10px #774eaa;
+}
+body.Purple div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #774eaa;
+    border-color:  #774eaa;
+}
+body.Purple section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #774eaa;
+    border-color: #774eaa;
+}
+div.colors-box .Purple{
+    background-color: #774eaa;
+}
+body.Purple div.colors-box .buttonColor:hover{
+    border: 3px solid #774eaa;
+    box-shadow: 0 0 30px #774eaa;
+}
+
+/* Magenta */
+body.Magenta section button.option-button:hover{
+    background-color: magenta;
+    box-shadow: 0 0 20px magenta;
+}
+body.Magenta .indicator{
+    background-color: magenta;
+    box-shadow:  0 0 20px magenta;
+}
+
+body.Magenta button.button-switch-color{
+    border-color:magenta;
+}
+body.Magenta button.button-switch-color:hover{
+    background-color: magenta;
+    box-shadow: 0 0 30px magenta, 0 0  30px magenta;
+}
+body.Magenta section.dark label.labelCheckboxDark{
+    background-color: magenta;
+    box-shadow: 0 0 10px magenta;
+}
+body.Magenta div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px magenta;
+    border-color:  magenta;
+}
+body.Magenta section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px magenta;
+    border-color: magenta;
+}
+div.colors-box .Magenta{
+    background-color:  magenta;
+}
+body.Magenta div.colors-box .buttonColor:hover{
+    border: 3px solid magenta;
+    box-shadow: 0 0 30px magenta;
+}
+
+/* Tial */
+body.Teal section button.option-button:hover{
+    background-color: teal;
+    box-shadow: 0 0 20px teal;
+}
+body.Teal .indicator{
+    background-color: teal;
+    box-shadow:  0 0 20px teal;
+}
+body.Teal button.button-switch-color{
+    border-color:teal;
+}
+body.Teal button.button-switch-color:hover{
+    background-color: teal;
+    box-shadow: 0 0 30px teal, 0 0  30px teal;
+}
+body.Teal section.dark label.labelCheckboxDark{
+    background-color: teal;
+    box-shadow: 0 0 10px teal;
+}
+body.Teal div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px teal;
+    border-color:  teal;
+}
+body.Teal section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px teal;
+    border-color: teal;
+}
+div.colors-box .Teal{
+    background-color: teal;
+}
+body.BlueGreen div.colors-box .buttonColor:hover{
+    border: 3px solid #016246;
+    box-shadow: 0 0 30px #016246;
+}
+
+/* Dark Red */
+body.DarkRed section button.option-button:hover{
+    background-color: #a71528;
+    box-shadow: 0 0 20px #a71528;
+}
+body.DarkRed .indicator{
+    background-color: #a71528;
+    box-shadow:  0 0 20px #a71528;
+}
+body.DarkRed button.button-switch-color{
+    border-color:#a71528;
+}
+body.DarkRed button.button-switch-color:hover{
+    background-color: #a71528;
+    box-shadow: 0 0 30px #a71528, 0 0  30px #a71528;
+}
+body.DarkRed section.dark label.labelCheckboxDark{
+    background-color: #a71528;
+    box-shadow: 0 0 10px #a71528;
+}
+body.DarkRed div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #a71528;
+    border-color:  #a71528;
+}
+body.DarkRed section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #a71528;
+    border-color: #a71528;
+}
+div.colors-box .DarkRed{
+    background-color: #a71528;
+}
+body.DarkRed div.colors-box .buttonColor:hover{
+    border: 3px solid #a71528;
+    box-shadow: 0 0 30px #a71528;
+}
+
+/* Red */
+body.Red section button.option-button:hover{
+    background-color: #e41424;
+    box-shadow: 0 0 20px #e41424;
+}
+body.Red .indicator{
+    background-color: #e41424;
+    box-shadow:  0 0 20px #e41424;
+}
+body.Red button.button-switch-color{
+    border-color:#e41424;
+
+}
+body.Red button.button-switch-color:hover{
+    background-color: #e41424;
+    box-shadow: 0 0 30px #e41424, 0 0  30px #e41424;
+}
+body.Red section.dark label.labelCheckboxDark{
+    background-color: #e41424;
+    box-shadow: 0 0 10px #e41424;
+}
+body.Red div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #e41424;
+    border-color:  #e41424;
+}
+body.Red section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #e41424;
+    border-color:#e41424;
+}
+div.colors-box .Red{
+    background-color: #e41424;
+}
+body.Red div.colors-box .buttonColor:hover{
+    border: 3px solid #e41424;
+    box-shadow: 0 0 30px #e41424;
+}
+
+/* Yellow */
+body.Yellow section button.option-button:hover{
+    background-color: #e6860d;
+    box-shadow: 0 0 20px #e6860d;
+}
+body.Yellow .indicator{
+    background-color: #e6860d;
+    box-shadow:  0 0 20px #e6860d;
+}
+body.Yellow button.button-switch-color{
+    border-color:#e6860d;
+}
+body.Yellow button.button-switch-color:hover{
+    background-color: #e6860d;
+    box-shadow: 0 0 30px #e6860d, 0 0  30px #e6860d;
+}
+body.Yellow section.dark label.labelCheckboxDark{
+    background-color: #e6860d;
+    box-shadow: 0 0 10px #e6860d;
+}
+
+body.Yellow div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #e6860d;
+    border-color:  #e6860d;
+}
+body.Yellow section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #e6860d;
+    border-color:#e6860d;
+}
+div.colors-box .Yellow{
+    background-color: #e6860d;
+}
+body.Yellow div.colors-box .buttonColor:hover{
+    border: 3px solid #e6860d;
+    box-shadow: 0 0 30px #e6860d;
+}
+
+/* Browm */
+body.Brown section button.option-button:hover{
+    background-color: #725130;
+    box-shadow: 0 0 20px #725130;
+}
+body.Brown .indicator{
+    background-color: #725130;
+    box-shadow:  0 0 20px #725130;
+}
+body.Brown button.button-switch-color{
+    border-color:#725130;
+}
+body.Brown button.button-switch-color:hover{
+    background-color: #725130;
+    box-shadow: 0 0 30px #725130, 0 0  30px #725130;
+}
+body.Brown section.dark label.labelCheckboxDark{
+    background-color: #725130;
+    box-shadow: 0 0 10px #725130;
+}
+body.Brown div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #725130;
+    border-color:  #725130;
+}
+body.Brown section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #725130;
+    border-color:#725130;
+}
+div.colors-box .Brown{
+    background-color: #725130;
+}
+body.Brown div.colors-box .buttonColor:hover{
+    border: 3px solid #725130;
+    box-shadow: 0 0 30px #725130;
+}
+
+/* Gray */
+body.Gray section button.option-button:hover{
+    background-color: #687385;
+    box-shadow: 0 0 20px #687385;
+}
+body.Gray .indicator{
+    background-color: #687385;
+    box-shadow:  0 0 20px #687385;
+}
+body.Gray button.button-switch-color{
+    border-color:#687385;
+}
+body.Gray button.button-switch-color:hover{
+    background-color: #687385;
+    box-shadow: 0 0 30px #687385, 0 0  30px #687385;
+}
+body.Gray section.dark label.labelCheckboxDark{
+    background-color: #687385;
+    box-shadow: 0 0 10px #687385;
+}
+body.Gray div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #687385;
+    border-color:  #687385;
+}
+body.Gray section.dark div.settings .settings-options-box .settings-options:hover{
+    box-shadow: 0 0 30px #687385;
+    border-color:#687385;
+}
+div.colors-box .Gray{
+    background-color: #687385;
+}
+body.Gray div.colors-box .buttonColor:hover{
+    border: 3px solid #687385;
+    box-shadow: 0 0 30px #687385;
+}
