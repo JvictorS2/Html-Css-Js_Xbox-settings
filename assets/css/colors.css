@@ -16,7 +16,11 @@ body.BlueGreen button.button-switch-color:hover{
     background-color:  #016246;
     box-shadow: 0 0 30px #016246 , 0 0  30px #016246;
 }
-body.BlueGreen section.dark label.labelCheckboxDark{
+body.BlueGreen button.on{
+    background-color:  #016246;
+    box-shadow: 0 0 30px #016246 , 0 0  30px #016246;
+}
+body.BlueGreen div.checkboxOn label.labelCheckbox{
     background-color: #016246;
     box-shadow: 0 0 10px #016246;
 }
@@ -52,7 +56,11 @@ body.BrightBlue button.button-switch-color:hover{
     background-color:  #107fc7;
     box-shadow: 0 0 30px #107fc7, 0 0  30px #107fc7;
 }
-body.BrightBlue section.dark label.labelCheckboxDark{
+body.BrightBlue button.on{
+    background-color:  #107fc7;
+    box-shadow: 0 0 30px #107fc7, 0 0  30px #107fc7;
+}
+body.BrightBlue div.checkboxOn label.labelCheckbox{
     background-color: #107fc7;
     box-shadow: 0 0 10px #107fc7;
 }
@@ -88,7 +96,11 @@ body.Blue button.button-switch-color:hover{
     background-color:  #1072d5;
     box-shadow: 0 0 30px #1072d5, 0 0  30px #1072d5;
 }
-body.Blue section.dark label.labelCheckboxDark{
+body.Blue button.on{
+    background-color:  #1072d5;
+    box-shadow: 0 0 30px #1072d5, 0 0  30px #1072d5;
+}
+body.Blue div.checkboxOn label.labelCheckbox{
     background-color: #1072d5;
     box-shadow: 0 0 10px #1072d5;
 }
@@ -124,7 +136,11 @@ body.DarkBlue button.button-switch-color:hover{
     background-color: #1a4093;
     box-shadow: 0 0 30px #1a4093, 0 0  30px #1a4093;
 }
-body.DarkBlue section.dark label.labelCheckboxDark{
+body.DarkBlue button.on{
+    background-color: #1a4093;
+    box-shadow: 0 0 30px #1a4093, 0 0  30px #1a4093;
+}
+body.DarkBlue div.checkboxOn label.labelCheckbox{
     background-color: #1a4093;
     box-shadow: 0 0 10px #1a4093;
 }
@@ -160,7 +176,11 @@ body.BrightGreen button.button-switch-color:hover{
     background-color:  #0a840d;
     box-shadow: 0 0 30px  #0a840d, 0 0  30px #0a840d;
 }
-body.BrightGreen section.dark label.labelCheckboxDark{
+body.BrightGreen button.on{
+    background-color:  #0a840d;
+    box-shadow: 0 0 30px  #0a840d, 0 0  30px #0a840d;
+}
+body.BrightGreen div.checkboxOn label.labelCheckbox{
     background-color: #0a840d;
     box-shadow: 0 0 10px #0a840d;
 }
@@ -196,7 +216,11 @@ body.Green button.button-switch-color:hover{
     background-color: #06a910;
     box-shadow: 0 0 30px #06a910, 0 0  30px #06a910;
 }
-body.Green section.dark label.labelCheckboxDark{
+body.Green button.on{
+    background-color: #06a910;
+    box-shadow: 0 0 30px #06a910, 0 0  30px #06a910;
+}
+body.Green div.checkboxOn label.labelCheckbox{
     background-color: #06a910;
     box-shadow: 0 0 10px #06a910;
 }
@@ -232,7 +256,11 @@ body.Orange button.button-switch-color:hover{
     background-color: orangered;
     box-shadow: 0 0 30px orangered, 0 0  30px orangered;
 }
-body.Orange section.dark label.labelCheckboxDark{
+body.Orange button.on{
+    background-color: orangered;
+    box-shadow: 0 0 30px orangered, 0 0  30px orangered;
+}
+body.Orange div.checkboxOn label.labelCheckbox{
     background-color: orangered;
     box-shadow: 0 0 10px orangered;
 }
@@ -268,7 +296,11 @@ body.DarkPurple button.button-switch-color:hover{
     background-color: purple;
     box-shadow: 0 0 30px purple, 0 0  30px purple;
 }
-body.DarkPurple section.dark label.labelCheckboxDark{
+body.DarkPurple button.on{
+    background-color: purple;
+    box-shadow: 0 0 30px purple, 0 0  30px purple;
+}
+body.DarkPurple div.checkboxOn label.labelCheckbox{
     background-color: purple;
     box-shadow: 0 0 10px purple;
 }
@@ -304,7 +336,11 @@ body.Purple button.button-switch-color:hover{
     background-color: #774eaa;
     box-shadow: 0 0 30px #774eaa, 0 0  30px #774eaa;
 }
-body.Purple section.dark label.labelCheckboxDark{
+body.Purple button.on{
+    background-color: #774eaa;
+    box-shadow: 0 0 30px #774eaa, 0 0  30px #774eaa;
+}
+body.Purple div.checkboxOn label.labelCheckbox{
     background-color: #774eaa;
     box-shadow: 0 0 10px #774eaa;
 }
@@ -341,7 +377,11 @@ body.Magenta button.button-switch-color:hover{
     background-color: magenta;
     box-shadow: 0 0 30px magenta, 0 0  30px magenta;
 }
-body.Magenta section.dark label.labelCheckboxDark{
+body.Magenta button.on{
+    background-color: magenta;
+    box-shadow: 0 0 30px magenta, 0 0  30px magenta;
+}
+body.Magenta div.checkboxOn label.labelCheckbox{
     background-color: magenta;
     box-shadow: 0 0 10px magenta;
 }
@@ -377,7 +417,11 @@ body.Teal button.button-switch-color:hover{
     background-color: teal;
     box-shadow: 0 0 30px teal, 0 0  30px teal;
 }
-body.Teal section.dark label.labelCheckboxDark{
+body.Teal button.on{
+    background-color: teal;
+    box-shadow: 0 0 30px teal, 0 0  30px teal;
+}
+body.Teal div.checkboxOn label.labelCheckbox{
     background-color: teal;
     box-shadow: 0 0 10px teal;
 }
@@ -413,7 +457,11 @@ body.DarkRed button.button-switch-color:hover{
     background-color: #a71528;
     box-shadow: 0 0 30px #a71528, 0 0  30px #a71528;
 }
-body.DarkRed section.dark label.labelCheckboxDark{
+body.DarkRed button.on{
+    background-color: #a71528;
+    box-shadow: 0 0 30px #a71528, 0 0  30px #a71528;
+}
+body.DarkRed div.checkboxOn label.labelCheckbox{
     background-color: #a71528;
     box-shadow: 0 0 10px #a71528;
 }
@@ -450,7 +498,11 @@ body.Red button.button-switch-color:hover{
     background-color: #e41424;
     box-shadow: 0 0 30px #e41424, 0 0  30px #e41424;
 }
-body.Red section.dark label.labelCheckboxDark{
+body.Red button.on{
+    background-color: #e41424;
+    box-shadow: 0 0 30px #e41424, 0 0  30px #e41424;
+}
+body.Red div.checkboxOn label.labelCheckbox{
     background-color: #e41424;
     box-shadow: 0 0 10px #e41424;
 }
@@ -486,7 +538,11 @@ body.Yellow button.button-switch-color:hover{
     background-color: #e6860d;
     box-shadow: 0 0 30px #e6860d, 0 0  30px #e6860d;
 }
-body.Yellow section.dark label.labelCheckboxDark{
+body.Yellow button.on{
+    background-color: #e6860d;
+    box-shadow: 0 0 30px #e6860d, 0 0  30px #e6860d;
+}
+body.Yellow div.checkboxOn label.labelCheckbox{
     background-color: #e6860d;
     box-shadow: 0 0 10px #e6860d;
 }
@@ -523,7 +579,11 @@ body.Brown button.button-switch-color:hover{
     background-color: #725130;
     box-shadow: 0 0 30px #725130, 0 0  30px #725130;
 }
-body.Brown section.dark label.labelCheckboxDark{
+body.Brown button.on{
+    background-color: #725130;
+    box-shadow: 0 0 30px #725130, 0 0  30px #725130;
+}
+body.Brown div.checkboxOn label.labelCheckbox{
     background-color: #725130;
     box-shadow: 0 0 10px #725130;
 }
@@ -559,7 +619,11 @@ body.Gray button.button-switch-color:hover{
     background-color: #687385;
     box-shadow: 0 0 30px #687385, 0 0  30px #687385;
 }
-body.Gray section.dark label.labelCheckboxDark{
+body.Gray button.on{
+    background-color: #687385;
+    box-shadow: 0 0 30px #687385, 0 0  30px #687385;
+}
+body.Gray div.checkboxOn label.labelCheckbox{
     background-color: #687385;
     box-shadow: 0 0 10px #687385;
 }

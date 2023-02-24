@@ -18,8 +18,8 @@
         rel="stylesheet">
     
 </head>
-<body id="BodyId" class="BrightBlue">
-    <section id="sectionMain" class="content-main ">
+<body id="BodyId" class="Purple">
+    <section id="sectionMain" class="content-main UpDown">
         <div class="content-left">
             <div class="profile-box">
                 <div class="profile-svg">
@@ -72,37 +72,37 @@
                 </div>
             </div>
             <div class="Personalization-box">
-                <div class="Switch-theme">
+                <div id="DarkBox" class="Switch-theme">
                     <span>Dark Theme</span><input id="DarkTheme" class="checkbox-style " type="checkbox" title="Switch theme"  >
-                    <label class="labelCheckbox labelCheckboxDark" for="DarkTheme">
-                        <div class="ball ballDark"></div>
+                    <label class="labelCheckbox" for="DarkTheme">
+                        <div class="ball ballOn"></div>
                     </label>
                 </div>
                
                 <div class="Switch-Transitions" >
-                    <div class="transition">
-                        <span>Up and down</span><input  class="checkbox-style checkbos-dark" type="checkbox"  title="Up and down Transition">
-                        <label class="labelCheckbox">
-                            <div class="ball "></div>
+                    <div class="transition checkboxOn">
+                        <span>Up & down</span><input id="upDown" class="checkbox-style checkbos-dark" type="checkbox"  title="Up and down Transition">
+                        <label class="labelCheckbox" for="upDown">
+                            <div class="ball ballOn"></div>
                         </label>
                     </div>
                     <div class="transition">
-                        <span>see you later</span><input class="checkbox-style" type="checkbox" title="see you later Transition">
-                        <label class="labelCheckbox">
-                            <div class="ball"></div>
+                        <span>see you later</span><input id="seeYou" class="checkbox-style" type="checkbox" title="see you later Transition">
+                        <label class="labelCheckbox" for="seeYou">
+                            <div class="ball ballOn"></div>
                         </label>
                     </div>
                     <div class="transition">
-                        <span class="oio">Nao sei =/</span><input class="checkbox-style" type="checkbox" title="Up and down Trasition">
-                        <label class="labelCheckbox">
-                            <div class="ball"></div>
+                        <span>Left & right</span><input id="leftRight" class="checkbox-style" type="checkbox" title="Up and down Trasition">
+                        <label class="labelCheckbox" for="leftRight">
+                            <div class="ball ballOn"></div>
                         </label>
                     </div>
                 </div>
                 <hr>
                 <div class="Switch-color">
                     <h4>Change your color</h4>
-                    <button id="buttonChangeColor" type="button" class="button-switch-color">Purple</button>
+                    <button id="buttonChangeColor" title="button change color" type="button" class="button-switch-color"><span class="nameColor" >Purple</span></button>
                 </div>
 
             </div>
@@ -556,22 +556,22 @@
                 </div>
             </div>
             <div id="colorsBox" class="settings hidden">
-                <h2>My color</h2>
+                <h2>My color - <span class="nameColor">Purple</span></h2>
                 <div id="oi" class="colors-box">
                     <div id="blueGreen" class="buttonColor BlueGreen"></div>
                     <div id="brightBlue" class="buttonColor BrightBlue"></div>
-                    <div id="blue" class="buttonColor Blue"></div>
                     <div id="darkBlue" class="buttonColor DarkBlue"></div>
                     <div id="brightGreen" class="buttonColor BrightGreen"></div>
-                    <div id="green" class="buttonColor Green"></div>
                     <div id="orange" class="buttonColor Orange"></div>
-                    <div id="darkPurple" class="buttonColor DarkPurple"></div>
+                    <div id="red" class="buttonColor Red"></div>
+                    <div id="green" class="buttonColor Green"></div>
                     <div id="purple" class="buttonColor Purple"></div>
+                    <div id="darkPurple" class="buttonColor DarkPurple"></div>
+                    <div id="blue" class="buttonColor Blue"></div>
+                    <div id="yellow" class="buttonColor Yellow"></div>
                     <div id="magenta" class="buttonColor Magenta"></div>
                     <div id="teal" class="buttonColor Teal"></div>
                     <div id="darkRed" class="buttonColor DarkRed"></div>
-                    <div id="red" class="buttonColor Red"></div>
-                    <div id="yellow" class="buttonColor Yellow"></div>
                     <div id="brown" class="buttonColor Brown"></div>
                     <div id="gray" class="buttonColor Gray"></div>
                 </div>
@@ -579,7 +579,7 @@
         </div>
     </section>
     <script src="./assets/script/buttonsFunctions.js"></script>
-    <script src="./assets/script/darkTheme.js"></script>
+    <script src="./assets/script/Checkbox.js"></script>
     <script src="./assets/script/buttonsColors.js"></script>
 </body>
 </html>

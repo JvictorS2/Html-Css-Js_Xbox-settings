@@ -43,8 +43,9 @@ const resertClasses = () => {
     for (let i = 0; i < settingsCollection.length; i++) {
         settingsCollection[i].classList.remove('show');
         settingsCollection[i].classList.add('hidden');
-    
     }
+
+    buttonChangeColor.classList.remove('on');
 }
 
 
@@ -132,6 +133,7 @@ buttonChangeColor.addEventListener('click', () => {
     
     if (ColorsBox.classList.contains('hidden')) {
         ColorsBox.classList.add('show');
+        buttonChangeColor.classList.add('on');
         ColorsBox.classList.remove('hidden');
     }
 })

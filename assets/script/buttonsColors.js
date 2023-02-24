@@ -1,6 +1,9 @@
 /* Referência da tag Body */
 let bodyId = document.getElementById('BodyId');
 
+/* Referência as tags span */
+let nameColor = document.getElementsByClassName('nameColor');
+
 /* Referência as cores */
 let blueGreen = document.getElementById('blueGreen');
 let brightBlue = document.getElementById('brightBlue');
@@ -33,6 +36,15 @@ const resertCores = () => {
 for(let i = 0; i < classes.length; i++){
     corCollection[i].addEventListener('click' , () => { 
         resertCores();
+
         bodyId.classList.add(classes[i]);
+
+        for (let j = 0; j < nameColor.length; j++){
+            
+            nameColor[j].innerHTML = classes[i];
+        }
     })
 }
+
+
+
